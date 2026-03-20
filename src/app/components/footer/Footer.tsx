@@ -1,14 +1,15 @@
-import { Button } from '@/components/ui/button'
-import { FaInstagram, FaXTwitter, FaFacebookF, FaPaperPlane } from 'react-icons/fa6'
-import { Input } from '@/components/ui/input'
-import { IconShoppingCart } from '@tabler/icons-react'
-import { navRoutes } from '@/constants/routes'
+'use client'
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { navRoutes } from '@/constants/routes'
+import { IconShoppingCart } from '@tabler/icons-react'
+import { FaFacebookF, FaInstagram, FaPaperPlane, FaXTwitter } from 'react-icons/fa6'
 import { IoChevronDown } from 'react-icons/io5'
 
 const social = [

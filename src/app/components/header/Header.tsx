@@ -1,33 +1,34 @@
-import { Button } from "@/components/ui/button"
-import { IconShoppingCart } from "@tabler/icons-react"
-import { IoBagHandle, IoLogIn, IoSearch } from "react-icons/io5"
-import { Input } from "@/components/ui/input"
+'use client'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { IconShoppingCart } from '@tabler/icons-react'
+import { IoBagHandle, IoLogIn, IoSearch } from 'react-icons/io5'
 
 import {
-  DialogTitle,
   Dialog,
   DialogContent,
   DialogHeader,
+  DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import { IoChevronDown, IoMenu } from "react-icons/io5"
+} from '@/components/ui/dialog'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+} from '@/components/ui/dropdown-menu'
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+import { IoChevronDown, IoMenu } from 'react-icons/io5'
 
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from '@/components/ui/accordion'
 
-import { ThemeButton } from "./components/theme-button"
-import { navRoutes } from "@/constants/routes"
+import { navRoutes } from '@/constants/routes'
+import { ThemeButton } from './components/theme-button'
 
 export const Header = () => {
   return (
@@ -81,28 +82,28 @@ export const Header = () => {
 
 const navigation = {
   whyFoodeli: {
-    label: "Porque Foodeli?",
-    link: "#",
+    label: 'Porque Foodeli?',
+    link: '#',
   },
   services: {
-    label: "Serviços",
+    label: 'Serviços',
     items: [
-      { label: "Item 1", link: "#" },
-      { label: "Item 2", link: "#" },
-      { label: "Item 3", link: "#" },
+      { label: 'Item 1', link: '#' },
+      { label: 'Item 2', link: '#' },
+      { label: 'Item 3', link: '#' },
     ],
   },
   menu: {
-    label: "Menu",
+    label: 'Menu',
     items: [
-      { label: "Item 1", link: "#" },
-      { label: "Item 2", link: "#" },
-      { label: "Item 3", link: "#" },
+      { label: 'Item 1', link: '#' },
+      { label: 'Item 2', link: '#' },
+      { label: 'Item 3', link: '#' },
     ],
   },
   contact: {
-    label: "Contato",
-    link: "#",
+    label: 'Contato',
+    link: '#',
   },
 }
 
