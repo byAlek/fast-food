@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/byAlek/portfolio/refs/heads/main/config.schema.json",
   "project_type": "landing-page",
-  "status": "completed",
+  "status": "archived",
   "description": {
     "en": "Quick and tasty fast food, serving burgers, fries, and more.",
     "es": "Comida rápida y deliciosa, sirviendo hamburguesas, papas fritas y más.",
